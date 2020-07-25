@@ -23,10 +23,6 @@ var menuItemsUrl =
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
-/////////////////////////////////////////////////////////
-//var homeHtmlToInsertIntoMainPage = "snippets/home-snippet.html"; //***** changed
-////////////////////////////////////////////////////////
-
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -127,7 +123,7 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      insertHTML("#main-content",homeHtmlToInsertIntoMainPage);
+      insertHtml("#main-content",homeHtmlToInsertIntoMainPage);
 
 
     },
